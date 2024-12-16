@@ -1,16 +1,42 @@
-# map_assignment
-
-A new Flutter project.
-
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter 3.19.6
+- Java 11
+- Xcode 15.2.0
+- Vscode or android studio with flutter and dart extensions installed
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+If you're new to Flutter the first thing you'll need is to follow the [setup instructions](https://docs.flutter.dev/get-started/install).
+
+### Debug Builds
+
+- Use `flutter run -d DEVICE_ID` to deploy a test build
+  To get a list of available `DEVICE_ID`, use `flutter run`.
+- Typical values are: `windows`, `linux`, `macos`, `chrome`.
+- Add `--release` to deploy an optimized build.
+
+
+### Release Builds
+
+- Use `flutter build PACKAGE_TYPE` to build a release package.
+- To get a list of available `PACKAGE_TYPE`, use `flutter build`.
+- Typical values are  `apk` , `ios`.
+
+
+## Demo build
+
+- Android : https://github.com/satishkoladiya/map_assignment/releases/tag/demo_apk
+
+
+
+## Supported platforms
+
+- [x] IOS
+- [x] Android
+
+## Note
+
+Please enter OTP 123456 for successful OTP verification
